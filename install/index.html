@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>安装ASInfo System</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+        
+        </style>
+    </head>
+    <body>
+        <h1>安装ASInfo System</h1>
+        <div style="size:12px ">一个简单的信息管理系统</div><br>
+        <form action="install.php" method="POST" >
+            <h6>数据库设置</h6>
+            数据库服务器:
+            <input type="text" name="dbserver" >
+            <br>
+            数据库名称：<input type="text" name="db" >
+            <br>
+            数据库用户名：<input type="text" name="dbuser" >
+            <br>
+            数据库密码：<input type="password" name="dbpass" >
+            <br>
+            表前缀：<input type="text" name="dbprefix" >
+            <br>
+            <h5>管理员账号设置</h5>
+            用户名：<input type="text" name="name" >
+            <br>
+            密码：<input type="password" name="password" >
+            <br>
+            <input type="submit" value="开始安装" >
+        </form>
+    </body>
+</html>
