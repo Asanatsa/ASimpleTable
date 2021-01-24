@@ -1,4 +1,4 @@
-{<html>
+<html>
     <head>
         <title>Install</title>
         <style>div{color:red;font-size:40px}</style>
